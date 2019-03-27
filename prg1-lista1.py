@@ -72,12 +72,14 @@ def dias_perdidos_por_fumar(cigarros,anos):
      de anos que fuma, e retorna o total de dias perdidos, sabendo que
      cada cigarro reduz a vida em 10 minutos.'''
 
-    return
+    return round((cigarros * 365 * anos * 10) / 1440,2)
 
 #exe11
 def dois_elevado_a_um_milhao():
     ''' Calcula dois elevado a um milhão, e retorna a quantidade de
     algarismos'''
+
+    return len(str(2**1000000))
 
 # Área de testes: só mexa aqui se souber o que está fazendo!
 acertos = 0
